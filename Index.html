@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="Styles.css"/>
+</head>
+<body>
+    
+    <div id="header">
+        <h2>Currency Changer</h2>
+    </div>
+    
+    <div id="container">
+        <div id="padding">
+            <div>
+                <label class="font">From Currency</label>
+                <div>
+                    <select id="fromCurrency" class="select"></select><br><br>
+                </div>
+    
+                <label class="font">To Currency</label>
+                <div>
+                    <select id="toCurrency" class="select"></select><br>
+                </div>
+            </div>
+            <br><br>
+    
+            <div>
+                <label class="font">Amount</label><br>
+                <input type="text" id="inputCurrency" /><br><br>
+            
+                <label class="font">New Currency</label><br>
+                <input type="text" id="newCurrency" disabled /><br><br>
+            </div>
+    
+            <button type="button" id="btnBuy">Convert</button>
+        </div>
+    </div>
+    
+    <script src="api.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
